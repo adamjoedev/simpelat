@@ -1,0 +1,67 @@
+.navbar-dark {
+	background: black;
+}
+
+.isi {
+	margin-top: 70px;
+}
+
+.kotak {
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: solid 1px #bbb;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.user .nama {
+	font-size: 1.3em;
+	padding-bottom: 10px;
+}
+
+.user .username {
+	display: block;
+	background-color: #eee;
+	padding: 5px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+.user .bio {
+	font-size: .8em;
+}
+
+.user .img {
+	text-align: center;
+}
+
+.user .avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	padding: 2px;
+	border: solid 1px #bbb;
+}
+
+.item {
+	box-sizing: border-box;
+	border: solid 1px #007bff;
+	border-left: solid 5px #007bff;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.item .btn {
+	margin-bottom: 5px;
+}
+
+.kotak>.icon {
+	padding: 10px;
+}
+
+.setting input,
+.setting textarea {
+	width: 100%;
+	margin-bottom: 20px;
+}
