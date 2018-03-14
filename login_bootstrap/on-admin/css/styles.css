@@ -532,4 +532,11 @@ select:focus {
   .user-section {
     margin-right: 20px; }
     .user-section .username {
-      display: none; } }
+      display: none; } 
+	  }
+
+	#input_2{
+    color: #fff;
+    padding: 5px;
+    height: auto;
+}

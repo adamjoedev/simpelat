@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <center><head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Halaman Login</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="/login_bootstrap/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/login_bootstrap/assets/css/style.css" rel="stylesheet">
 		<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -17,11 +17,16 @@
 
 	<!-- Custom styles for this template -->
 	<link href="tema/css/agency.min.css" rel="stylesheet">
+	</head>
+	<center>
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
 		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="#page-top"><font face="century gothic">SIPELAT </font> </a>
-			<font color="#fffff"><i>"Sistem Informasi Perbaikan & Perawatan Alat"</i></font>
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">
+			
+			<img src="/login_bootstrap/assets/img/logo.png"
+			<font face="century gothic">SIPELAT</font> </a>
+			<font color="#fffff"><i><marquee>"Sistem Informasi Perbaikan & Perawatan Alat"</marquee></i></font>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -29,12 +34,12 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav text-uppercase ml-auto">
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#services">Manfaat</a>
+						<a class="nav-link js-scroll-trigger" href="#services"><i>Manfaat</i></a>
 					</li>
 					
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#about">Tentang</a>
+						<a class="nav-link js-scroll-trigger" href="#about"><i>Tentang</i></a>
 					</li>
 					
 					</li>
@@ -108,7 +113,7 @@
 				<div class="col-md-4">
 					<span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-coffee fa-stack-1x fa-inverse"></i>
+              <i class="fa fa-dollar fa-stack-1x fa-inverse"></i>
             </span>
 					<h4 class="service-heading"><font color="#fffff" font face="century gothic">Menghemat</font></h4>
 					<p class="text-muted"><font color="#fffff" >Menghemat penggunaan kertas dalam melakukan pendataan perbaikan dan penyimpanan alat uji</font></p>
@@ -116,7 +121,7 @@
 				<div class="col-md-4">
 					<span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-wifi fa-stack-1x fa-inverse"></i>
+              <i class="fa fa-puzzle-piece  fa-stack-1x fa-inverse"></i>
             </span>
 					<h4 class="service-heading"><font color="#fffff" font face="century gothic">Memfasilitasi</font></h4>
 					<p class="text-muted"><font color="#fffff">Memfasilitasi penguji dalam melakukan pendataan perbaikan dan penyimpanan alat</font></p>
@@ -124,7 +129,7 @@
 				<div class="col-md-4">
 					<span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
+              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
             </span>
 					<h4 class="service-heading"><font color="#fffff" font face="century gothic">Aman</font></h4>
 					<p class="text-muted"><font color="#fffff">Semua Database aman karena ter-enkripsi password</font></p>
@@ -144,7 +149,7 @@
 				<div class="col-lg-12 text-center">
 					<h2 class="section-heading text-uppercase"><font color="#fffff">Tentang SIPELAT</font></h2>
 					<h3 class="section-subheading text-muted">
-						<strong><font color="#fffff">SIPELAT</strong> Merupakan sistem informasi perbaikan & perawatan alat uji <strong>SIPELAT</strong> didedikasikan untuk mewujudkan proyek Tugas Akhir dan untuk mengembangkan sistem informasi pada pengujian kendaraan bermotor Kota Tangerang.
+						<strong><font color="#fffff">SIPELAT</strong> Merupakan sistem informasi perbaikan dan perawatan alat uji yang didedikasikan untuk mempermudah dalam pendataan perbaikan dan perawatan alat uji maupun alat mekanis lainnya serta mengembangkan sistem informasi pada unit pengujian kendaraan bermotor Kota Tangerang.
 					</h3>
 				</div>
 			</div>

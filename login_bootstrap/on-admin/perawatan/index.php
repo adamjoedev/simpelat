@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>DASHBOARD</title>
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700" rel="stylesheet">
+	
+	<!-- Template Styles -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	
+	<!-- CSS Reset -->
+	<link rel="stylesheet" href="css/normalize.css">
+	
+	<!-- Milligram CSS minified -->
+	<link rel="stylesheet" href="css/milligram.min.css">
+	
+	<!-- Main Styles -->
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div class="navbar">
+		<div class="row">
+			<div class="column column-30 col-site-title"><a href="#" class="site-title float-left">
+			<img height="50px"  src="/login_bootstrap/assets/img/logo.png">
+			<i>SIPELAT</i></a></div>
+			
+			<div class="column column-30">
+				<div class="user-section"><a href="#">
+				<iframe src="http://free.timeanddate.com/clock/i65fyd8v/n108/tlid38/fn6/fs16/fcfff/tct/pct/ftb/pa8/tt0/tw1/th1/ta1/tb4" frameborder="0" width="208" height="58" allowTransparency="true"></iframe>
+
+					
+				</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div id="sidebar" class="column">
+			<h5>Dashboard Mekanik</h5>
+			<ul>
+				<li><a href="/login_bootstrap/on-admin/alat_uji/index.html"><em class="fa fa-cogs"></em> PERBAIKAN ALAT UJI  </a></li>
+				<li><a href="/login_bootstrap/on-admin/alat_lain/form_alatlain.html"><em class="fa fa-cogs"></em> PERBAIKAN PERALATAN LAIN</a></li>
+				<li><a href="/login_bootstrap/on-admin/perawatan/index.php"><em class="fa fa-inbox"></em> INVENTORY ALAT  </a></li>
+				<li><a href="/login_bootstrap/on-admin/bank_data/index.php"><em class="fa fa fa-home"></em> BANK DATA PERBAIKAN</a></li>
+				<li><a href="/login_bootstrap/logout.php"><em class="fa fa-sign-out"></em> LOGOUT</a></li>
+				
+			</ul>
+		</div>
+		<section id="main-content" class="column column-offset-20">
+			<div class="row grid-responsive">
+				<div class="column page-heading">
+					<div class="large-card">
+					<!--
+<script src="https://cdn.jotfor.ms/js/vendor/imageinfo.js?v=3.3.5115" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/file-uploader/fileuploader.js?v=3.3.5115"></script>-->
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.5115" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.init(function(){
+
+ JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+ JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+ JotForm.calendarOther = {"today":"Today"};
+ var languageOptions = document.querySelectorAll('#langList li'); 
+ for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { 
+   languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("5", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
+ } 
+ JotForm.setCalendar("5", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""});
+      JotForm.alterTexts(undefined);
+	JotForm.clearFieldOnHide="disable";
+      setTimeout(function() {
+          JotForm.initMultipleUploads();
+      }, 2);
+	JotForm.submitError="jumpToFirstError";
+    /*INIT-END*/
+});
+
+   JotForm.prepareCalculationsOnTheFly([null,{"name":"heading","qid":"1","text":"INPUT DATA INVENTARIS PERALATAN","type":"control_head"},{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"namaAlat","qid":"3","subLabel":"","text":"Nama Alat","type":"control_textbox"},{"description":"","name":"jenisPeralatan","qid":"4","subLabel":"","text":"Jenis Peralatan","type":"control_dropdown"},{"description":"","name":"tanggalPembelian","qid":"5","text":"Tanggal Pembelian","type":"control_datetime"},{"description":"","name":"jumlah","qid":"6","subLabel":"","text":"Jumlah","type":"control_textbox"},{"description":"","name":"uploadFoto","qid":"7","subLabel":"","text":"Upload Foto Alat","type":"control_fileupload"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"INPUT DATA INVENTARIS PERALATAN","type":"control_head"},{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"namaAlat","qid":"3","subLabel":"","text":"Nama Alat","type":"control_textbox"},{"description":"","name":"jenisPeralatan","qid":"4","subLabel":"","text":"Jenis Peralatan","type":"control_dropdown"},{"description":"","name":"tanggalPembelian","qid":"5","text":"Tanggal Pembelian","type":"control_datetime"},{"description":"","name":"jumlah","qid":"6","subLabel":"","text":"Jumlah","type":"control_textbox"},{"description":"","name":"uploadFoto","qid":"7","subLabel":"","text":"Upload Foto Alat","type":"control_fileupload"}]);}, 20); 
+</script>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.5115" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.5115" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.5115" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?"/>
+<style type="text/css">
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    .form-all{
+        width:690px;
+        color:#555 !important;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size:14px;
+    }
+</style>
+
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+.form-label.form-label-auto { display: block; float: none; text-align: left; width: inherit; } /*__INSPECT_SEPERATOR__*/
+    /* Injected CSS Code */
+</style>
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/buttons/form-submit-button-simple_pink.css?3.3.5115"/>
+<form class="jotform-form" action="/login_bootstrap/on-admin/inputdata_inven.php" method="post" enctype="multipart/form-data" name="form_80712717784463" id="80712717784463" accept-charset="utf-8">
+  <input type="hidden" name="formID" value="80712717784463" />
+  <div class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_1" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group ">
+          <div class="header-text httal htvam">
+            <h2 id="header_1" class="form-header" data-component="header">
+              INPUT DATA INVENTARIS PERALATAN
+            </h2>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_3">
+        <label class="form-label form-label-top form-label-auto" id="label_3" for="input_3"> Nama Alat </label>
+        <div id="cid_3" class="form-input-wide">
+          <input type="text" id="input_3" name="q3_namaAlat" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_datetime" id="id_5">
+        <label class="form-label form-label-top form-label-auto" id="label_5" for="lite_mode_5"> Tanggal Pembelian </label>
+        <div id="cid_5" class="form-input-wide">
+          <div data-wrapper-react="true">
+            <div style="display:none;">
+              <span class="form-sub-label-container" style="vertical-align:top;">
+                <input class="form-textbox validate[limitDate]" id="month_5" name="q5_tanggalPembelian[month]" type="tel" size="2" data-maxlength="2" value="" />
+                <span class="date-separate">
+                   -
+                </span>
+                <label class="form-sub-label" for="month_5" id="sublabel_month" style="min-height:13px;"> Month </label>
+              </span>
+              <span class="form-sub-label-container" style="vertical-align:top;">
+                <input class="form-textbox validate[limitDate]" id="day_5" name="q5_tanggalPembelian[day]" type="tel" size="2" data-maxlength="2" value="" />
+                <span class="date-separate">
+                   -
+                </span>
+                <label class="form-sub-label" for="day_5" id="sublabel_day" style="min-height:13px;"> Day </label>
+              </span>
+              <span class="form-sub-label-container" style="vertical-align:top;">
+                <input class="form-textbox validate[limitDate]" id="year_5" name="q5_tanggalPembelian[year]" type="tel" size="4" data-maxlength="4" value="" />
+                <label class="form-sub-label" for="year_5" id="sublabel_year" style="min-height:13px;"> Year </label>
+              </span>
+            </div>
+            <span class="form-sub-label-container" style="vertical-align:top;">
+              <input class="form-textbox validate[limitDate, validateLiteDate]" id="lite_mode_5" type="text" size="12" data-maxlength="12" value="" data-format="mmddyyyy" data-seperator="-" placeholder="mm-dd-yyyy" />
+              <label class="form-sub-label" for="lite_mode_5" id="sublabel_litemode" style="min-height:13px;"> Date </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top;">
+              <img alt="Pick a Date" id="input_5_pick" src="https://cdn.jotfor.ms/images/calendar.png" style="vertical-align:middle;" data-component="datetime" />
+              <label class="form-sub-label" for="input_5_pick" style="min-height:13px;">  </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_dropdown" id="id_4">
+        <label class="form-label form-label-top form-label-auto" id="label_4" for="input_4"> Jenis Peralatan </label>
+        <div id="cid_4" class="form-input-wide">
+          <select class="form-dropdown" id="input_4" name="q4_jenisPeralatan" style="width:150px;" data-component="dropdown">
+            <option value="">  </option>
+            <option value="Alat Uji"> Alat Uji </option>
+            <option value="Alat Mekanis/Lain"> Alat Mekanis/Lain </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_6">
+        <label class="form-label form-label-top form-label-auto" id="label_6" for="input_6"> Jumlah </label>
+        <div id="cid_6" class="form-input-wide">
+          <input type="text" id="input_6" name="q6_jumlah" data-type="input-textbox" class="form-textbox validate[Numeric]" size="20" value="" data-component="textbox" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_fileupload" id="id_7">
+        <label class="form-label form-label-top form-label-auto" id="label_7" for="input_7"> Upload Foto Alat </label>
+        <div id="cid_7" class="form-input-wide">
+          <div data-wrapper-react="true">
+            <div data-wrapper-react="true">
+              <div class="qq-uploader-buttonText-value">
+                Browse Files
+              </div>
+              <input type="file" id="input_7" name="q7_uploadFoto[]" multiple="" class="form-upload-multiple" data-imagevalidate="yes" data-file-accept="pdf, doc, docx, xls, xlsx, csv, txt, rtf, html, zip, mp3, wma, mpg, flv, avi, jpg, jpeg, png, gif" data-file-maxsize="10854" data-file-minsize="0" data-file-limit="" data-component="fileupload" />
+            </div>
+            <span style="display:none;" class="cancelText">
+              Cancel
+            </span>
+            <span style="display:none;" class="ofText">
+              of
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_2">
+        <div id="cid_2" class="form-input-wide">
+          <div style="margin-left:156px;" class="form-buttons-wrapper">
+            <button id="input_2" type="submit" class="form-submit-button form-submit-button-simple_pink" data-component="button">
+              Submit
+            </button>
+          </div>
+        </div>
+      </li>
+
+
+			<!--Charts-->
+			
+	
+	<script src="js/chart.min.js"></script>
+	<script src="js/chart-data.js"></script>
+	<script>
+	window.onload = function () {
+		var chart1 = document.getElementById("line-chart").getContext("2d");
+		window.myLine = new Chart(chart1).Line(lineChartData, {
+		responsive: true,
+		scaleLineColor: "rgba(0,0,0,.2)",
+		scaleGridLineColor: "rgba(0,0,0,.05)",
+		scaleFontColor: "#c5c7cc"
+		});
+		var chart2 = document.getElementById("bar-chart").getContext("2d");
+		window.myBar = new Chart(chart2).Bar(barChartData, {
+		responsive: true,
+		scaleLineColor: "rgba(0,0,0,.2)",
+		scaleGridLineColor: "rgba(0,0,0,.05)",
+		scaleFontColor: "#c5c7cc"
+		});
+		var chart4 = document.getElementById("pie-chart").getContext("2d");
+		window.myPie = new Chart(chart4).Pie(pieData, {
+		responsive: true,
+		segmentShowStroke: false
+		});
+		var chart5 = document.getElementById("radar-chart").getContext("2d");
+		window.myRadarChart = new Chart(chart5).Radar(radarData, {
+		responsive: true,
+		scaleLineColor: "rgba(0,0,0,.05)",
+		angleLineColor: "rgba(0,0,0,.2)"
+		});
+		var chart6 = document.getElementById("polar-area-chart").getContext("2d");
+		window.myPolarAreaChart = new Chart(chart6).PolarArea(polarData, {
+		responsive: true,
+		scaleLineColor: "rgba(0,0,0,.2)",
+		segmentShowStroke: false
+		});
+	};
+	</script>			
+
+</body>
+</html> 
